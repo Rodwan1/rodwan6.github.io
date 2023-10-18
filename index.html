@@ -19,17 +19,7 @@
       html {
         font-family: sans-serif;
       }
-      <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Cool box</title>
-    <style>
-      html {
-        font-family: sans-serif;
-      }
-
+    
       div {
         width: 200px;
         height: 200px;
@@ -37,7 +27,16 @@
         text-align: center;
         font-size: 18px;
         /* divide 18 by the default value, which is 16 = 1.125 */
-        background-color: #e6e6e6; }
+        background-color: #ff0303; 
+        color: #fcfcfc;
+        text-shadow: 1px 1px 0px #000;
+        border-radius: 10px;
+        border: 1px solid #8a0000;
+        background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2));
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.2);
+        
+    }
     </style>
   </head>
   <body>
